@@ -1,6 +1,6 @@
 // --- Configuration ---
 // The 2% fee is applied to the gross profit (the money earned above the initial cost).
-const TAKER_FEE_RATE = 0.02; // 2% fee
+const TAKER_FEE_RATE = 0.035; // 2% fee
 
 // We will use a very general selector but rely on filtering to prevent unnecessary work.
 const PRICE_SELECTOR = 'span, div, button'; // Target all potential price holders
