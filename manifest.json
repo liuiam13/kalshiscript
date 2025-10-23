@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Kalshi American Odds + 2% Fee",
+  "version": "1.0",
+  "description": "Converts Kalshi contract prices (probability) to American odds, incorporating a 2% fee on the gross profit.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.kalshi.com/*"],
+      "js": ["content_script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

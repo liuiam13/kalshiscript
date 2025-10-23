@@ -1,0 +1,19 @@
+/* Styles to make the new odds prominent */
+.american-odds-2pct-display {
+    font-size: 14px;
+    font-weight: 600; /* Semi-bold */
+    color: #007bff; /* A clear, striking blue */
+    margin-left: 8px;
+    /* Basic modern style */
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #e9f5ff; /* Light blue background for emphasis */
+    letter-spacing: 0.5px;
+}
+
+/* Style to slightly shrink odds in the orderbook/smaller elements */
+.american-odds-2pct-display.orderbook-style {
+    font-size: 12px;
+    background-color: #f0f0f0;
+    color: #333;
+}
